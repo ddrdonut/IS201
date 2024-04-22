@@ -1,0 +1,166 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(230, 232, 233);
+    font-size: 15px;
+    color: #353535;
+}
+
+li {
+    font-size: 14px;
+    font-style: italic;
+}
+
+ul {
+    height: 450px;
+    padding-right: 5px;
+    font-weight: 400;
+}
+
+a {
+    color: rgb(17, 38, 160);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(17, 38, 160);
+}
+
+.listheading {
+    font-weight: bold;
+}
+
+.common {
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 175px;
+    z-index: 2;
+    border-bottom: solid 1px rgb(17, 38, 160);
+}
+
+.leftmenu {
+    top: 189px;
+    left: 5px;
+    width: 100px;
+    bottom: 5px;
+    border-right: solid 1px rgb(17, 38, 160); /* Add border on the right side */
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.body {
+    top: 189px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    padding-right: 5px;
+}
+
+.rightmenu {
+    top: 189px;
+    right: 5px;
+    width: 100px;
+    bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-left: solid 1px rgb(17, 38, 160);
+}
+
+
+.footer {
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 25px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    position: fixed;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgb(17, 38, 160);
+}
+
+.subheader {
+    float: right;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    z-index: 2;
+    font-size: xx-large;
+    color: rgb(17, 38, 160);
+}
+
+.banner {
+    float: right;
+    padding-left: 5px;
+}
+
+.ytdescription {
+    padding-left: 10px;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(17, 38, 160);
+}
+
+iframe {
+    display: inline-block;
+    text-align: center;
+}
+
+.iframe-container {
+    text-align: center;
+}
+
+.iframe-container iframe {
+    display: inline-block;
+}
+
+.description {
+    float: left;
+    width: 100%;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.tableauPlaceholder {
+    overflow: hidden;
+    margin-top: 30px;
+    margin: 0 auto; 
+    display: block;
+    text-align: center;
+}
+
+.section-border {
+    border-bottom: 1px solid rgb(17, 38, 160); 
+    border-top: 1px solid rgb(17, 38, 160);
+    margin-top: 20px;
+    padding-top: 20px;
+}
